@@ -1,0 +1,14 @@
+students = {
+    "Aman": 85,
+    "Riya": 92,
+    "Yuvraj": 88,
+    "Kiran": 91,
+    "Mohit": 76
+}
+
+name = input("Enter student name: ")
+
+if name in students:
+    print("Marks of", name, ":", students[name])
+else:
+    print("Student not found")
